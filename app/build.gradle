@@ -1,0 +1,6 @@
+plugins { id 'com.android.application' version '8.6.1' }
+android {
+    namespace 'com.streetracer.game'
+    compileSdk 35
+    defaultConfig { applicationId 'com.streetracer.game'; minSdk 23; targetSdk 35; versionCode 1; versionName '1.0' }
+}
